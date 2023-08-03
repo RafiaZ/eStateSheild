@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background: url("./img/dubai.jpg") center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header-text {
+    color: white;
+    font-size: 50px;
+}
+
+.navbar {
+    position: absolute;
+padding-inline: 400px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-buttons button {
+    margin-left: 10px;
+}
+
+.burger-button {
+    margin-left: 0;
+}
+.navbar-buttons {
+    flex: 1;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 200px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.search-button i {
+    color: white;
+}
+
+.navbar-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+}
+
+.whatsapp-button {
+    color: green;
+}
+
+.message-button {
+    color: white;
+}
+
+.burger-button {
+    color: white;
+}
+
+.bottom-navbar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+
+.bottom-navbar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-buttons {
+        display: none;
+    }
+
+    .search-bar {
+        margin: 0;
+    }
+
+    .bottom-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
