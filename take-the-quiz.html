@@ -54,13 +54,21 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <style>
-        /* Add any styles for highlighting here */
-        .highlight {
-            border: 2px solid #e7a5e2;
-            /* Change this to the desired highlight style */
-        }
-    </style>
+
+
+        <style>
+            /* Add the styles for highlighting cards here */
+            .highlight-card {
+                /* border: 12px solid #e7a5e2; */
+                background: linear-gradient(to bottom left, #d297ce, #d822c9); /* Beautiful purple border with width 12px for cards */
+            }
+        
+            /* Add the styles for highlighting plans here */
+            .highlight-plan {
+                 /* Orange border with width 2px for plans */
+                 background-color: #d297ce;
+            }
+        </style>
 
 </head>
 
@@ -91,7 +99,7 @@
                                             <ul class="nav nav-pills" id="mainNav">
                                                 <li class="dropdown">
                                                     <a class="dropdown-item active" data-hash data-hash-offset="0"
-                                                        data-hash-offset-lg="95" href="#home">Home</a>
+                                                        data-hash-offset-lg="95" href="./index.html">Home</a>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item" data-hash data-hash-offset="0"
@@ -99,16 +107,13 @@
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item" data-hash data-hash-offset="0"
-                                                        data-hash-offset-lg="95" href="#solutions">Solutions</a>
+                                                        data-hash-offset-lg="95" href="#solutions">Plans</a>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item" data-hash data-hash-offset="0"
                                                         data-hash-offset-lg="95" href="#pricing">Pricing</a>
                                                 </li>
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item" data-hash data-hash-offset="0"
-                                                        data-hash-offset-lg="95" href="#reviews">Reviews</a>
-                                                </li>
+                                          
                                                 <li class="dropdown">
                                                     <a class="dropdown-item" data-hash data-hash-offset="0"
                                                         data-hash-offset-lg="95" href="#news">Resources</a>
@@ -130,23 +135,113 @@
             </div>
         </header>
 
-        <div role="main" class="main">
+        <div role="main" class="main ">
 
-            <div class="container position-relative py-5" style="min-height: 643px;" id="home">
+            <div class="container position-relative " id="pricing">
                 <div class="row jutify-content-center text-center">
-
-                    <h2 class="font-weight-bold line-height-2 text-7 mb-1">All of your estate planning needs in one
-                        place.</h2>
+                   
                 </div>
-                <div class="container py-4 my-5" id="pricing-table">
+                <div class="container" style="margin-top: 150px;">
+                     
+                    <h2 class="font-weight-bold line-height-2 text-9 ">Tell us about yourself and we’ll match you with a plan.</h2>
+                    <p class="line-height-2  mb-5">Tell us about yourself and we’ll match you with a plan.</p>
+                    <div class="row ">
+                        <div class="col-sm-12 col-lg-3 ">
+                            <div
+                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4  ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
 
-                    <h3 class="font-weight-semibold text-transform-none text-5 mb-3">Not sure which plan is right for
-                        you? <a href="./take-the-quiz.html"> Take the quiz</a></h3>
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                            group
+                                        </span>
+                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-3 ">
+                            <div
+                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                            home
+                                        </span>
+                                        <span class=" text-1 d-block text-dark pt-2">I own my home or other real
+                                            state</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 col-lg-3 ">
+                            <div
+                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+
+
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                            stethoscope
+                                        </span>
+                                        <span class=" text-1 d-block text-dark pt-2">I want to specify my health care
+                                            wishes</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 col-lg-3 ">
+                            <div
+                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                            monetization_on
+                                        </span>
+                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="container " id="pricing-table">
+
 
                     <div class="row mb-4 pricing-table">
                         <div class="col-md-4">
                             <div
-                                class="card border-radius-0 bg-color-light box-shadow-6 anim-hover-translate-top-10px transition-3ms">
+                                class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
 
                                     <div class="pricing-block">
@@ -193,7 +288,7 @@
                         </div>
                         <div class="col-md-4">
                             <div
-                                class="card border-radius-0 bg-color-light box-shadow-6 anim-hover-translate-top-10px transition-3ms">
+                                class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
 
                                     <div class="pricing-block">
@@ -242,7 +337,7 @@
                         </div>
                         <div class="col-md-4">
                             <div
-                                class="card border-radius-0 bg-color-light box-shadow-6 anim-hover-translate-top-10px transition-3ms">
+                                class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
 
                                     <div class="pricing-block">
@@ -290,297 +385,14 @@
                     </div>
 
                 </div>
+             
 
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 pb-3 ">
-                                <div class="featured-box featured-box-no-borders shadow-lg">
-
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
-                                        <!-- <span class="elements-list-shadow-icon text-default">
-                                            <span class="material-symbols-outlined">
-                                                group
-                                                </span>
-                                        </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
-                                            group
-                                        </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
-                                    </span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 pb-3">
-                                <div class="featured-box featured-box-no-borders shadow-lg">
-
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
-                                        <!-- <span class="elements-list-shadow-icon text-default">
-                                            <span class="material-symbols-outlined">
-                                                group
-                                                </span>
-                                        </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
-                                            home
-                                        </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I own my home or other real
-                                            state</span>
-                                    </span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 pb-3">
-                                <div class="featured-box featured-box-no-borders shadow-lg">
-
-
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
-                                        <!-- <span class="elements-list-shadow-icon text-default">
-                                            <span class="material-symbols-outlined">
-                                                group
-                                                </span>
-                                        </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
-                                            stethoscope
-                                        </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I want to specify my health care
-                                            wishes</span>
-                                    </span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 pb-3">
-                                <div class="featured-box featured-box-no-borders shadow-lg">
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
-                                        <!-- <span class="elements-list-shadow-icon text-default">
-                                            <span class="material-symbols-outlined">
-                                                group
-                                                </span>
-                                        </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
-                                            monetization_on
-                                        </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
             </div>
 
-            <!-- <section class="section bg-secondary border-0 m-0">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-lg-3 ">
-								<h2 class="font-weight-semibold line-height-3 text-6 text-lg-5 text-xl-6 mb-3 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000">Get your free instant SEO audit now</h2>
-							</div>
-							<div class="col-lg-9">
-								<form class="custom-form-style-1" method="post">
-									<div class="row">
-										<div class="form-group col-lg-5 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1200">
-											<input type="text" class="form-control" value="" placeholder="YOUR WEBSITE URL*" required>
-										</div>
-										<div class="form-group col-lg-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1400">
-											<input type="email" class="form-control" value="" placeholder="EMAIL*" required>
-										</div>
-										<div class="form-group col-lg-3 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1600">
-											<input type="submit" class="btn btn-primary btn-outline font-weight-bold text-3 h-100 rounded-0 btn-px-4" value="Get your Report">
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</section> -->
 
-
-
-            <hr>
-
-
-            <!-- <div class="row mb-4">
-				<div class="col text-center">
-					<a href="#demo-form"
-						class="btn btn-primary btn-outline btn-rounded popup-with-form font-weight-semibold text-4 btn-px-5 ">Get
-						a Quote</a>
-				</div>
-			</div> -->
-        </div>
-
-
-
-
-
-        <!-- <section class="section section-height-3 border-0 m-0 appear-animation" data-appear-animation="fadeIn"
-			id="reviews">
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<h2 class="font-weight-bold line-height-2 text-7 mb-1">Reviews</h2>
-						<span class="d-block text-color-dark text-5 pb-2 mb-4 opacity-7">Testimonials</span>
-					</div>
-				</div>
-				<div class="row justify-content-center">
-					<div class="col-md-11 appear-animation" data-appear-animation="fadeInUpShorter"
-						data-appear-animation-delay="600">
-						<div class="owl-carousel owl-theme nav-bottom rounded-nav mb-0"
-							data-plugin-options="{'items': 1, 'loop': false}">
-							<div>
-								<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-									<div class="testimonial-author mb-0">
-										<img src="img/person1.png" class="img-fluid rounded-circle mb-1"
-											alt="">
-									</div>
-									<blockquote>
-										<p class="text-color-dark opacity-7 mb-0">Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at,
-											interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit. Sociis natoque penatibus et magnis dis
-											parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non
-											consectetur sed, pharetra nec ex.</p>
-									</blockquote>
-									<div class="testimonial-author mb-3">
-										<p><strong class="font-weight-bold">John Smith</strong><span
-												class="font-weight-normal">CEO & Founder - Okler</span></p>
-									</div>
-								</div>
-							</div>
-							<div>
-								<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-									<div class="testimonial-author mb-0">
-										<img src="img/person2.webp" class="img-fluid rounded-circle mb-1"
-											alt="">
-									</div>
-									<blockquote>
-										<p class="text-color-dark opacity-7 mb-0">Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at,
-											interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit.</p>
-									</blockquote>
-									<div class="testimonial-author">
-										<p><strong class="font-weight-bold">Jessica Smith</strong><span
-												class="font-weight-normal">Marketing - Okler</span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-
-        <div class="container py-4 my-5" id="news">
-
-        </div>
-
-        <!-- <section class="section border-0 m-0">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<div class="owl-carousel owl-theme carousel-center-active-item mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 5}, '1200': {'items': 5}}, 'autoplay': true, 'autoplayTimeout': 3000, 'stagePadding': 0, 'dots': false, 'nav': false}">
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-1.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-2.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-3.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-4.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-5.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-6.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-4.png" alt="">
-									</div>
-									<div class="px-3">
-										<img class="img-fluid" src="img/logos/logo-2.png" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> -->
-
-
-
-        <!-- Form -->
-        <form id="demo-form" class="contact-form white-popup-block mfp-hide" action="php/contact-form.php"
-            method="POST">
-            <div class="row mt-2">
-                <div class="col-sm-12">
-                    <h2 class="font-weight-bold text-center text-7 mb-4">Get a Quote</h2>
-                </div>
-            </div>
-
-            <div class="contact-form-success alert alert-success d-none mt-4">
-                <strong>Success!</strong> Your message has been sent to us.
-            </div>
-
-            <div class="contact-form-error alert alert-danger d-none mt-4">
-                <strong>Error!</strong> There was an error sending your message.
-                <span class="mail-error-message text-1 d-block"></span>
-            </div>
-
-            <div class="custom-form-style-1 custom-form-style-1-rounded">
-                <div class="row">
-                    <div class="form-group col mb-2">
-                        <input type="text" name="name" class="form-control" value="" placeholder="NAME*"
-                            data-msg-required="Please enter your name." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col mb-2">
-                        <input type="email" name="Email" class="form-control" value="" placeholder="EMAIL*"
-                            data-msg-required="Please enter your email address."
-                            data-msg-email="Please enter a valid email address." maxlength="100" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col mb-2">
-                        <input type="text" name="website" class="form-control" value="" placeholder="WEBSITE*"
-                            data-msg-required="Please enter your website address." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col">
-                        <input type="text" name="company" class="form-control" value="" placeholder="COMPANY NAME*"
-                            data-msg-required="Please enter your company name." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col mb-0">
-                        <input type="submit"
-                            class="btn btn-primary btn-outline btn-rounded font-weight-semibold text-center text-4 btn-py-2 w-100 mb-3"
-                            value="Submit" data-loading-text="Loading...">
-                    </div>
-                </div>
-            </div>
-
-        </form>
-
+   
+       
+      
     </div>
 
     <footer id="footer" class="mt-0">
@@ -697,31 +509,49 @@
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
 
-    <script>
-        // Get all the card elements
-        const cards = document.querySelectorAll('.featured-boxes-modern-style-2');
+<script>
+    // Get all the card elements
+    const cards = document.querySelectorAll('.featured-boxes-modern-style-2');
 
-        // Add click event listeners to the cards
-        cards.forEach((card, index) => {
-            card.addEventListener('click', () => {
-                highlightColumn(index);
-            });
+    // Get all the columns in the pricing table
+    const columns = document.querySelectorAll('.pricing-table .col-md-4');
+
+    // Add click event listeners to the cards
+    cards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+            toggleSelection(index);
+            updateHighlight();
+        });
+    });
+
+    // Function to toggle the selection of a card
+    function toggleSelection(index) {
+        // Toggle the 'highlight-card' class of the clicked card
+        cards[index].classList.toggle('highlight-card');
+    }
+
+    // Function to update the highlight of the corresponding column in the pricing table
+    function updateHighlight() {
+        // Remove the 'highlight-plan' class from all columns
+        columns.forEach(column => {
+            column.classList.remove('highlight-plan');
         });
 
-        // Function to highlight the corresponding column in the pricing table
-        function highlightColumn(index) {
-            // Get all the columns in the pricing table
-            const columns = document.querySelectorAll('.pricing-table .col-md-4');
+        // Find the last selected card
+        let lastSelectedIndex = -1;
+        cards.forEach((card, index) => {
+            if (card.classList.contains('highlight-card')) {
+                lastSelectedIndex = index;
+            }
+        });
 
-            // Remove the 'highlight' class from all columns
-            columns.forEach(column => {
-                column.classList.remove('highlight');
-            });
-
-            // Add the 'highlight' class to the corresponding column
-            columns[index].classList.add('highlight');
+        // If a card is selected, highlight the corresponding column in the pricing table
+        if (lastSelectedIndex !== -1) {
+            columns[lastSelectedIndex].classList.add('highlight-plan');
         }
-    </script>
+    }
+</script>
+
 </body>
 
 </html>
