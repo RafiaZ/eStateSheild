@@ -2160,7 +2160,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		align-items: center;
 		flex-grow: 1;
 		justify-content: flex-end;
-		align-self: stretch;
+		/* align-self: stretch; */
 	}
 
 	#header .header-nav.header-nav-stripe {
@@ -11594,4 +11594,28 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	.second-section{
 		margin-top: 0px !important;
 	}
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+  }
+  
+  .box {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	background-color: #eedbec; /* Replace with desired background color */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .div-block-25 {
+    /* background-color: rgba(255, 255, 255, .68); */
+    border-radius: 10px;
+    padding: 25px 49px;
+    box-shadow: 0 0 0 2px #a952a3;
+	max-width: 600px;
 }
