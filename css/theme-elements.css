@@ -5507,10 +5507,10 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 }
 
 .featured-boxes-modern-style-2 .featured-box {
-	position: relative;
+	/* position: relative;
 	background: #6c6ef1;
-	background: linear-gradient(135deg, #6c6ef1 0%, #e2498e 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c6ef1', endColorstr='#e2498e', GradientType=1 );
+	background: linear-gradient(135deg, #6c6ef1 0%, #e2498e 100%); */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c6ef1', endColorstr='#e2498e', GradientType=1 ); */
 	border-radius: 0;
 	margin: 0 !important;
 	overflow: hidden;
@@ -5527,8 +5527,8 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 }
 
 .featured-boxes-modern-style-2 .featured-box .box-content {
-	padding: 64px;
-	padding: 4rem;
+	/* padding: 64px;
+	padding: 4rem; */
 	border: none;
 }
 
@@ -5562,7 +5562,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 
 @media (max-width: 575px) {
 	.featured-boxes-modern-style-2 .featured-box .box-content {
-		padding: 2rem 1.5rem;
+		/* padding: 2rem 1.5rem; */
 	}
 }
 
@@ -19058,3 +19058,5 @@ ul.team-list .team-item .thumb-info-social-icons {
 		line-height: 100px;
 	}
 }
+
+

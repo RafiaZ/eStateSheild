@@ -14,7 +14,7 @@
     <meta name="author" content="okler.net">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
     <!-- Mobile Metas -->
@@ -85,7 +85,7 @@
                             <div class="header-row">
                                 <div class="header-logo">
                                     <a href="index.html">
-                                        <img alt="Porto" width="120" data-sticky-width="82" src="img/2.png">
+                                     <img alt="Porto" width="120" data-sticky-width="82" src="img/Logo-3.png">	
                                     </a>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
 												</li>
 												<li class="dropdown">
 													<a class="dropdown-item" data-hash data-hash-offset="0"
-														data-hash-offset-lg="95" href="#about">About</a>
+														data-hash-offset-lg="95" href="./About-us.html">About</a>
 												</li>
 												<li class="dropdown">
 													<a class="dropdown-item" data-hash data-hash-offset="0"
@@ -156,88 +156,112 @@
                      
                     <h2 class="font-weight-bold line-height-2 text-9 ">Tell us about yourself and we’ll match you with a plan.</h2>
                     <p class="line-height-2  mb-5">Tell us about yourself and we’ll match you with a plan.</p>
-                    <div class="row ">
-                        <div class="col-sm-12 col-lg-3 ">
-                            <div
+
+
+                    <div class="d-flex gap-3 cards-plan"> 
+
+                        <div class="w-100 py-4" >
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"
                                 class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4  ">
                                 <div class="featured-box featured-box-no-borders shadow-lg">
 
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                    <span class="box-content px-1 py-4 text-center d-block " style="padding-inline: 600px;">
+                                        
                                         <!-- <span class="elements-list-shadow-icon text-default">
                                             <span class="material-symbols-outlined">
                                                 group
                                                 </span>
                                         </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
                                             group
                                         </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
+                                        <span class=" text-4 d-block text-dark pt-2">I have childeren under 18</span>
                                     </span>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                        <div class="w-100 py-4">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
                                 <div class="featured-box featured-box-no-borders shadow-lg">
 
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                    <span class="box-content px-1 py-4 text-center d-block " style="padding-inline: 600px;">
+                                        
                                         <!-- <span class="elements-list-shadow-icon text-default">
                                             <span class="material-symbols-outlined">
                                                 group
                                                 </span>
                                         </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
                                             home
                                         </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I own my home or other real
+                                        <span class=" text-4 d-block text-dark pt-2">I own my home or other real
                                             state</span>
                                     </span>
 
                                 </div>
                             </div>
                         </div>
-                        <div class=" col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                        <div class=" w-100 py-4">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
                                 <div class="featured-box featured-box-no-borders shadow-lg">
 
 
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                    <span class="box-content px-1 py-4 text-center d-block " style="padding-inline: 600px;">
+                                        
                                         <!-- <span class="elements-list-shadow-icon text-default">
                                             <span class="material-symbols-outlined">
                                                 group
                                                 </span>
                                         </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
                                             stethoscope
                                         </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I want to specify my health care
+                                        <span class=" text-4 d-block text-dark pt-2">I want to specify my health care
                                             wishes</span>
                                     </span>
 
                                 </div>
                             </div>
                         </div>
-                        <div class=" col-sm-12 col-lg-3 ">
-                            <div
-                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                        <div class=" w-100 py-4">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
                                 <div class="featured-box featured-box-no-borders shadow-lg">
-                                    <span class="box-content px-1 py-4 text-center d-block">
-                                        <span class="text-primary text-8 position-relative top-3 mt-3"></span>
+                                    <span class="box-content px-1 py-4 text-center d-block " style="padding-inline: 600px;">
+                                        
                                         <!-- <span class="elements-list-shadow-icon text-default">
                                             <span class="material-symbols-outlined">
                                                 group
                                                 </span>
                                         </span> -->
-                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 60px">
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
                                             monetization_on
                                         </span>
-                                        <span class=" text-1 d-block text-dark pt-2">I have childeren under 18</span>
+                                        <span class=" text-4 d-block text-dark pt-2">I have childeren under 18</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" w-100 py-4">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+                                    <span class="box-content px-1 py-4 text-center d-block " style="padding-inline: 600px;">
+                                        
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                            diamond
+                                            </span>
+                                        <span class=" text-4 d-block text-dark pt-2">I'm married</span>
+                                        <div class="pt-2 mt-3"></div>
                                     </span>
                                 </div>
                             </div>
@@ -245,6 +269,103 @@
 
                     </div>
 
+
+
+
+                
+                    <div class="d-flex gap-3 cards-plan">
+                        <div class="w-100 py-4 ">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4  ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        
+                                   
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                            corporate_fare
+                                            </span>
+                                        <span class=" text-3 d-block text-dark pt-2">I own a Buisness</span>
+                                        <div class="pt-2 mt-3"></div>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100 py-4 ">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                      
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                            redeem
+                                            </span>
+                                        <span class=" text-3 d-block text-dark pt-2">I want to leave gifts to people or charity
+                                            state</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" w-100 py-4 ">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+
+
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                            support_agent
+                                            </span>
+                                        <span class=" text-3 d-block text-dark pt-2">I want to talk to an attorney
+                                            wishes</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" w-100 py-4 ">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                        
+                                        <!-- <span class="elements-list-shadow-icon text-default">
+                                            <span class="material-symbols-outlined">
+                                                group
+                                                </span>
+                                        </span> -->
+                                        <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                            forum
+                                            </span>
+                                        <span class=" text-3 d-block text-dark pt-2">I want expert support while I create my plan</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" w-100 py-4 ">
+                            <input type="checkbox" hidden id="cardcheckbox" />
+                            <div onclick="cardselect(this)"                                class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 ">
+                                <div class="featured-box featured-box-no-borders shadow-lg">
+                                    <span class="box-content px-1 py-4 text-center d-block">
+                                            <span class="material-symbols-outlined" style="color: #a952a3; font-size: 50px">
+                                                front_hand
+                                                </span>
+                                        <span class=" text-3 d-block text-dark pt-2">I want to exclude people from receiving my assets</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                     
 
                 
@@ -254,7 +375,7 @@
 
 
                     <div class="row mb-4 pricing-table">
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="plan1">
                             <div
                                 class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
@@ -301,7 +422,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="plan2">
                             <div
                                 class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
@@ -350,7 +471,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="plan3">
                             <div
                                 class="card border-radius-0  box-shadow-6 anim-hover-translate-top-10px transition-3ms">
                                 <div class="card-body py-5">
@@ -400,6 +521,10 @@
                     </div>
 
                 </div>
+
+
+
+            
              
 
             </div>
@@ -411,97 +536,97 @@
     </div>
 
     <footer id="footer" class="mt-0">
-        <div class="container my-4">
-            <div class="row py-5">
-                <div class="col-lg-2 align-self-center mb-5 mb-lg-0">
-                    <a href="demo-seo.html">
-                        <img src="img/2.png" class="img-fluid" alt="Demo SEO" width="100" />
-                    </a>
-                </div>
-                <div class="col-lg-3 mb-4 mb-lg-0">
-                    <h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Contact Details</h4>
-                    <ul class="list list-unstyled">
-                        <li class="d-flex align-items-baseline"><i
-                                class="far fa-dot-circle text-color-primary me-3"></i>
-                            <div><span class="text-color-light">Address:</span> 1234 Street Name, City Name, USA</div>
-                        </li>
-                        <li class="d-flex align-items-baseline"><i class="fab fa-whatsapp text-color-primary me-3"></i>
-                            <div><span class="text-color-light">Phone:</span> (123) 456-7890</div>
-                        </li>
-                        <li class="d-flex align-items-baseline"><i class="far fa-envelope text-color-primary me-3"></i>
-                            <div><span class="text-color-light">Email:</span> <a
-                                    href="mailto:mail@example.com">mail@example.com</a></div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mb-4 mb-lg-0">
-                    <h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Navigations</h4>
-                    <ul class="list list-unstyled">
-                        <li class="mb-1">
-                            <a class="link-hover-style-1 active" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#home">Home</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#about">About</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#solutions">Solutions</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#pricing">Pricing</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#reviews">Reviews</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                                href="#news">News</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Newsletter</h4>
-                    <p>Enter your email address and get our offers and plans in to your mail.</p>
-                    <div class="alert alert-success d-none" id="newsletterSuccess">
-                        <strong>Success!</strong> You've been added to our email list.
-                    </div>
-                    <div class="alert alert-danger d-none" id="newsletterError"></div>
-                    <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mw-100">
-                        <div class="input-group">
-                            <input
-                                class="form-control form-control-sm text-color-light custom-bg-color-1 rounded-0 border-0 px-4 text-3"
-                                placeholder="Email Address..." name="newsletterEmail" id="newsletterEmail" type="email">
-                            <button class="btn btn-primary text-color-light text-2 rounded-0 py-3 px-4"
-                                type="submit"><strong>SUBSCRIBE</strong></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright footer-copyright-style-2">
-            <div class="container py-2">
-                <div class="row justify-content-between py-4">
-                    <div class="col-auto">
-                        <p>© Copyright 2023. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-auto">
-                        <ul class="footer-social-icons social-icons social-icons-clean social-icons-icon-light ms-3">
-                            <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
-                                    title="Facebook"><i class="fab fa-facebook-f text-2"></i></a></li>
-                            <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-                                    title="Twitter"><i class="fab fa-twitter text-2"></i></a></li>
-                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
-                                    title="Linkedin"><i class="fab fa-linkedin-in text-2"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+		<div class="container my-4">
+			<div class="row py-5">
+				<div class="col-lg-2 align-self-center mb-5 mb-lg-0">
+					<a href="#">
+						<img src="img/Logo-02.png" class="img-fluid" alt="Demo SEO" width="150" />
+					</a>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Contact Details</h4>
+					<ul class="list list-unstyled">
+						<li class="d-flex align-items-baseline"><i
+								class="far fa-dot-circle text-color-primary me-3"></i>
+							<div><span class="text-color-light">Address:</span> 1234 Street Name, City Name, USA</div>
+						</li>
+						<li class="d-flex align-items-baseline"><i class="fab fa-whatsapp text-color-primary me-3"></i>
+							<div><span class="text-color-light">Phone:</span> (123) 456-7890</div>
+						</li>
+						<li class="d-flex align-items-baseline"><i class="far fa-envelope text-color-primary me-3"></i>
+							<div><span class="text-color-light">Email:</span> <a
+									href="mailto:mail@example.com">mail@example.com</a></div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Navigations</h4>
+					<ul class="list list-unstyled">
+						<li class="mb-1">
+							<a class="link-hover-style-1 active" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="./index.html">Home</a>
+						</li>
+						<li class="mb-1">
+							<a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="./About-us.html">About</a>
+						</li>
+						<li class="mb-1">
+							<a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="./plan.html">Plans</a>
+						</li>
+						<li class="mb-1">
+							<a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="./pricing.html">Pricing</a>
+						</li>
+						<li class="mb-1">
+							<a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="./resource.html">Resources</a>
+						</li>
+						<!-- <li class="mb-1">
+							<a class="link-hover-style-1" data-hash data-hash-offset="0" data-hash-offset-lg="95"
+								href="#news">News</a>
+						</li> -->
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<h4 class="font-weight-normal text-color-light text-5 ls-0 mb-4">Newsletter</h4>
+					<p>Enter your email address and get our offers and plans in to your mail.</p>
+					<div class="alert alert-success d-none" id="newsletterSuccess">
+						<strong>Success!</strong> You've been added to our email list.
+					</div>
+					<div class="alert alert-danger d-none" id="newsletterError"></div>
+					<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mw-100">
+						<div class="input-group">
+							<input
+								class="form-control form-control-sm text-color-light custom-bg-color-1 btn-rounded  border-0 px-4 text-3"
+								placeholder="Email Address..." name="newsletterEmail" id="newsletterEmail" type="email">
+							<button class="btn btn-primary btn-rounded text-color-light text-2  py-3 px-4"
+								type="submit"><strong>SUBSCRIBE</strong></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright footer-copyright-style-2">
+			<div class="container py-2">
+				<div class="row justify-content-between py-4">
+					<div class="col-auto">
+						<p>© Copyright 2023. All Rights Reserved.</p>
+					</div>
+					<div class="col-auto">
+						<ul class="footer-social-icons social-icons social-icons-clean social-icons-icon-light ms-3">
+							<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+									title="Facebook"><i class="fab fa-facebook-f text-2"></i></a></li>
+							<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
+									title="Twitter"><i class="fab fa-twitter text-2"></i></a></li>
+							<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
+									title="Linkedin"><i class="fab fa-linkedin-in text-2"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
     </div>
 
@@ -524,48 +649,98 @@
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
 
-<script>
-    // Get all the card elements
-    const cards = document.querySelectorAll('.featured-boxes-modern-style-2');
+    <script>
 
-    // Get all the columns in the pricing table
-    const columns = document.querySelectorAll('.pricing-table .col-md-4');
+var count=0;
+   function cardselect(obj)
+   {
+    $(obj).prev().click();
+   // $(obj).prev().prop("checked", true); 
 
-    // Add click event listeners to the cards
-    cards.forEach((card, index) => {
-        card.addEventListener('click', () => {
-            toggleSelection(index);
-            updateHighlight();
-        });
-    });
-
-    // Function to toggle the selection of a card
-    function toggleSelection(index) {
-        // Toggle the 'highlight-card' class of the clicked card
-        cards[index].classList.toggle('highlight-card');
+    if($(obj).prev().is(":checked"))
+    {
+        count ++;
     }
+    else{
+    count --;
+    }
+    slectplan()
+   }
+   function slectplan()
+   {
+    if(count==0)
+    {
+        $("#plan1").removeClass("highlight-plan");
+        $("#plan2").removeClass("highlight-plan");
+        $("#plan3").removeClass("highlight-plan");
+    }
+   else if(count==1)
+    {
+        $("#plan1").addClass("highlight-plan");
+        $("#plan2").removeClass("highlight-plan");
+        $("#plan3").removeClass("highlight-plan");
 
-    // Function to update the highlight of the corresponding column in the pricing table
-    function updateHighlight() {
-        // Remove the 'highlight-plan' class from all columns
-        columns.forEach(column => {
-            column.classList.remove('highlight-plan');
+    }
+    else if(count==2 || count==3)
+    {
+        $("#plan1").removeClass("highlight-plan");
+        $("#plan2").addClass("highlight-plan");
+        $("#plan3").removeClass("highlight-plan");
+
+    }
+    else if(count>3)
+    {   
+         $("#plan1").removeClass("highlight-plan");
+         $("#plan2").removeClass("highlight-plan");
+
+$("#plan3").addClass("highlight-plan");
+
+    }
+   }
+
+        // Get all the card elements for both rows
+        const allCards = document.querySelectorAll('.featured-boxes-modern-style-2');
+    
+    
+        // Get all the columns in the pricing table
+        const columns = document.querySelectorAll('.pricing-table .col-md-4');
+    
+        // Add click event listeners to all cards
+        allCards.forEach((card, index) => {
+            card.addEventListener('click', () => {
+                toggleSelection(index);
+                updateHighlight();
+            });
         });
-
-        // Find the last selected card
-        let lastSelectedIndex = -1;
-        cards.forEach((card, index) => {
-            if (card.classList.contains('highlight-card')) {
-                lastSelectedIndex = index;
-            }
-        });
-
-        // If a card is selected, highlight the corresponding column in the pricing table
-        if (lastSelectedIndex !== -1) {
-            columns[lastSelectedIndex].classList.add('highlight-plan');
+    
+        // Function to toggle the selection of a card
+        function toggleSelection(index) {
+            // Toggle the 'highlight-card' class of the clicked card
+            allCards[index].classList.toggle('highlight-card');
         }
-    }
-</script>
+    
+        // Function to update the highlight of the corresponding column in the pricing table
+        // function updateHighlight() {
+        //     // Remove the 'highlight-plan' class from all columns
+        //     columns.forEach(column => {
+        //         column.classList.remove('highlight-plan');
+        //     });
+    
+        //     // Find the last selected card
+        //     let lastSelectedIndex = -1;
+        //     allCards.forEach((card, index) => {
+        //         if (card.classList.contains('highlight-card')) {
+        //             lastSelectedIndex = index;
+        //         }
+        //     });
+    
+        //     // If a card is selected, highlight the corresponding column in the pricing table
+        //     if (lastSelectedIndex !== -1) {
+        //         columns[lastSelectedIndex].classList.add('highlight-plan');
+        //     }
+        // }
+    </script>
+    
 
 </body>
 

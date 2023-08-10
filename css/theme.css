@@ -11556,6 +11556,7 @@ html.gap-outside #header:not(.side-header) .header-container:after {
 	html.gap-outside #header:not(.side-header) .header-nav-main:before {
 		width: calc(100vw - 50px);
 	}
+
 }
 
 html.gap-outside .sticky-wrapper {
@@ -11594,6 +11595,12 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	.second-section{
 		margin-top: 0px !important;
 	}
+	.cards-plan{
+		display: block !important;
+		gap: 10px !important;
+	
+	}
+
 }
 
 .box-container {
