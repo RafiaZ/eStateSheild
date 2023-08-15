@@ -11547,6 +11547,9 @@ html.gap-outside #header:not(.side-header) .header-body {
 	padding-right: 25px;
 	padding-left: 25px;
 }
+.container-header{
+	min-height: 800px !important;
+}
 
 html.gap-outside #header:not(.side-header) .header-container:after {
 	content: none;
@@ -11600,7 +11603,12 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 		gap: 10px !important;
 	
 	}
-
+	.container-header{
+		min-height: 850px !important;
+	}
+    .header-text-mobile{
+		margin-top: 230px !important;
+	}
 }
 
 .box-container {
